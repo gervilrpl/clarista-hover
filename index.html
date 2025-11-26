@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hover-card | clarista</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hover Card Memori Awal Perkenalan</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #ffe6f2; /* Pink lembut */
+            color: #d63384; /* Pink gelap untuk teks */
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            color: #ff1493; /* Pink cerah */
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+        .hover-container {
+            position: relative;
+            display: inline-block;
+            margin: 20px;
+        }
+        .hover-trigger {
+            width: 200px;
+            height: 200px;
+            background-color: #ffb3d9; /* Pink sedang */
+            border-radius: 10px;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+        }
+        .hover-trigger:hover {
+            transform: scale(1.05);
+        }
+        .hover-card {
+            position: absolute;
+            top: 100%;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 300px;
+            background-color: #ff69b4; /* Pink cerah */
+            color: white;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 0.3s ease, visibility 0.3s ease;
+            z-index: 10;
+        }
+        .hover-container:hover .hover-card {
+            opacity: 1;
+            visibility: visible;
+        }
+        .hover-card h3 {
+            margin-top: 0;
+            color: #ffffff;
+        }
+        .hover-card p {
+            font-size: 1em;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+<body>
+    <h1> Memori Awal Perkenalan</h1>
+    <p>Arahkan kursor ke kotak di bawah untuk melihat kenangan awal perkenalan kita!</p>
+    
+    <div class="hover-container">
+        <div class="hover-trigger">
+            <!-- Placeholder untuk gambar atau ikon -->
+            <img src="/img/fotocla.jpg" alt="Hover Trigger" style="width: 100%; height: 100%; border-radius: 10px;">
+        </div>
+        <div class="hover-card">
+            <h3>Memori Awal Perkenalan</h3>
+            <p>Hai! Ingat ga pertama kali kita kenal? Itu adalah momen yang tidak akan terlupakan,atau aku sering sebut itu adalah momen yang tidak akan terulang kembali. Kita berbagi cerita, tertawa bersama, dan sejak itu, kita lebih mengenal satu sama lain. kisah pertemuan ini adalah awal dari semua kisah.</p>
+             <p> kisah kita yang ga akan pernah aku tutup bukunya,terlalu indah sampai aku tidak bisa menutup buku sebagai akhir cerita kita.</p>
+        </div>
+    </div>
+</body>
+</html>
+</body>
+</html>
